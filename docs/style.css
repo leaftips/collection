@@ -152,12 +152,6 @@ a {
     margin-top: -25px;
   }
 
-#third img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
-}
-
 #third .prev {
     margin-bottom: 50px;
     padding-left: 20px;
@@ -183,6 +177,9 @@ a {
 
 .gater_prev img {
     margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
 }
 
 .gater_prev div:hover {
@@ -216,6 +213,8 @@ a {
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    display: block;
+    text-decoration: none;
 }
 
 .g_button:hover {
@@ -250,4 +249,72 @@ a {
     width: 300px;
     min-height: 200px;
     margin: 20px;
+}
+
+.listing_main {
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.green_foot.footer {
+    background-color: #f1a43a;
+}
+
+#first.header.mini {
+    min-height: 120px;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#first.header.mini img {
+    height: 40px;
+    width: auto;
+}
+
+.sidebar {
+    z-index: 9;
+    position: absolute;
+    background-color: #03c04a;
+}
+
+.container input {
+    display:block;
+}
+
+.container {
+    background: #272220;
+    color: white;
+}
+
+input[type="radio"] {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+input[type="radio"]:checked + label {
+    background-color: rgba(49, 245, 228, 0.629);
+}
+
+.container {
+}
+
+label {
+    line-height: 50px;
+    background-color: gray;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+span.trait {
+    width: 100px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
 }
